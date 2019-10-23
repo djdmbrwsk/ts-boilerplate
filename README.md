@@ -22,5 +22,4 @@ This project is meant to act as a raw base for a project written in TypeScript.
 1. Clone the ts-boilerplate repo
 2. Copy/paste into new folder
 3. Delete the `.git` folder and run `git init` to start fresh
-4. Delete the `node_modules` folder
-5. Ensure all packages are up to date with `npx npm-check-updates -u`
+4. Run `npm i` to install dependencies
