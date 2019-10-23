@@ -7,9 +7,9 @@ This project is meant to act as a raw base for a project written in TypeScript.
 ### Ships with:
 
 - TypeScript
-- ESLint
+- ESLint (with TypeScript plugin)
 - Prettier
-- Jest
+- Jest (with TypeScript support)
 
 ### Configured with:
 
