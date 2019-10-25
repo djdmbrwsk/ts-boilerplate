@@ -27,7 +27,7 @@
     "clean": "rimraf ./build",
     "format": "prettier --write \"**/*.{md,js,json,ts,yaml,yml}\"",
     "lint": "eslint \"{src,test}/**/*.ts\"",
-    "test": "jest"
+    "test": "jest --verbose --silent --coverage"
   },
   "husky": {
     "hooks": {
