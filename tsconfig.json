@@ -6,7 +6,8 @@
     "strict": true,
     "esModuleInterop": true,
 
-    "outDir": "./build"
+    "outDir": "./build",
+    "inlineSourceMap": true
   },
   "include": ["src"]
 }
