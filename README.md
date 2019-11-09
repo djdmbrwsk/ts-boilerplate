@@ -2,6 +2,8 @@
 
 This project is meant to act as a raw base for a project written in TypeScript.
 
+For a similar, but more full featured boilerplate checkout [ts-service-boilerplate](https://github.com/djdmbrwsk/ts-service-boilerplate)
+
 ## Features
 
 ### Ships with:
