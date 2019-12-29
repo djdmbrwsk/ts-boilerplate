@@ -26,7 +26,7 @@
     "build": "tsc",
     "clean": "rimraf ./build",
     "format": "prettier --write \"**/*.{md,js,json,ts,yaml,yml}\"",
-    "lint": "eslint \"{src,test}/**/*.ts\"",
+    "lint": "eslint --max-warnings 0 \"{src,test}/**/*.ts\"",
     "test": "jest --verbose --coverage"
   },
   "husky": {
@@ -40,7 +40,7 @@
       "git add"
     ],
     "{src,test}/**/*.ts": [
-      "eslint --fix",
+      "eslint --fix --max-warnings 0",
       "git add"
     ]
   }
