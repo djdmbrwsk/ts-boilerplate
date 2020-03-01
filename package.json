@@ -21,7 +21,7 @@
     "rimraf": "^3.0.2",
     "standard-version": "^7.1.0",
     "ts-jest": "^24.3.0",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.3"
   },
   "scripts": {
     "build": "tsc",
